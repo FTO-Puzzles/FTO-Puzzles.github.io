@@ -28,8 +28,17 @@ view model =
                 , input [ class "password", type_ "password" ] []
                 , div [ class "submit-button" ] [ button [ type_ "submit" ] [ text "Enter" ] ]
                 ]
+            , div [ class "hint" ] [ text "Hint: the password is PASSWORD" ]
+            , div [ class "fire" ]
+                [ div [ class "flames" ]
+                    [ div [ class "flame" ] []
+                    , div [ class "flame" ] []
+                    , div [ class "flame" ] []
+                    , div [ class "flame" ] []
+                    ]
+                , div [ class "logs" ] []
+                ]
             ]
-        , div [ class "hint" ] [ text "Hint: the password is PASSWORD" ]
         ]
 
 

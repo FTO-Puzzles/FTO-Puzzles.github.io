@@ -4370,7 +4370,7 @@ function _Browser_load(url)
 		}
 	}));
 }
-var $author$project$PasswordPuzzle$initialModel = {incorrect_opacity: '0', opacity: '0', password: '', solution: 'password'};
+var $author$project$PasswordPuzzle$initialModel = {incorrect_opacity: '0', opacity: '0', password: '', solution: '50415353574f52440a'};
 var $elm$core$Basics$EQ = {$: 'EQ'};
 var $elm$core$Basics$GT = {$: 'GT'};
 var $elm$core$Basics$LT = {$: 'LT'};
@@ -5282,7 +5282,16 @@ var $author$project$PasswordPuzzle$view = function (model) {
 					]),
 				_List_fromArray(
 					[
-						$elm$html$Html$text('FTO-Puzzles')
+						A2(
+						$elm$html$Html$div,
+						_List_fromArray(
+							[
+								$elm$html$Html$Attributes$class('title')
+							]),
+						_List_fromArray(
+							[
+								$elm$html$Html$text('FTO-Puzzles')
+							]))
 					])),
 				A2(
 				$elm$html$Html$div,

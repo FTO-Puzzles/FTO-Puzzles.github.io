@@ -18,7 +18,7 @@ type alias Model =
 initialModel : Model
 initialModel =
     { password = ""
-    , solution = "password"
+    , solution = "50415353574f52440a"
     , opacity = "0"
     , incorrect_opacity = "0"
     }
@@ -28,7 +28,7 @@ initialModel =
 view : Model -> Html Msg
 view model =
     div []
-        [ div [ class "nav-bar" ] [ text "FTO-Puzzles" ]
+        [ div [ class "nav-bar" ] [ div [ class "title" ] [ text "FTO-Puzzles" ] ]
         , div [ class "content-wrapper" ]
             [ div [ class "password-wrapper" ]
                 [ div [ class "prompt" ] [ text "Please enter the password: " ]

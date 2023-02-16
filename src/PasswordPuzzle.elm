@@ -18,7 +18,7 @@ type alias Model =
 initialModel : Model
 initialModel =
     { password = ""
-    , solution = "50415353574f52440a"
+    , solution = "50415353574F5244"
     , opacity = "0"
     , incorrect_opacity = "0"
     }

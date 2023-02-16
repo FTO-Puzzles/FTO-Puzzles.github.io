@@ -4370,7 +4370,7 @@ function _Browser_load(url)
 		}
 	}));
 }
-var $author$project$PasswordPuzzle$initialModel = {incorrect_opacity: '0', opacity: '0', password: '', solution: '50415353574f52440a'};
+var $author$project$PasswordPuzzle$initialModel = {incorrect_opacity: '0', opacity: '0', password: '', solution: '50415353574F5244'};
 var $elm$core$Basics$EQ = {$: 'EQ'};
 var $elm$core$Basics$GT = {$: 'GT'};
 var $elm$core$Basics$LT = {$: 'LT'};
